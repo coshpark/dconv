@@ -1,0 +1,34 @@
+module.exports = {
+    path: 'c:\\opt\\srv\\dconv\\',
+    port: '65401',
+    conv : {
+        '.hwp' : {
+            mod: 'C:\\Program Files\\AutoHotkey\\AutoHotkeyU32.exe',
+            args: ['.\\conv\\hwp.ahk']
+        },
+        '.docx' : {
+            mod: 'C:\\Program Files\\AutoHotkey\\AutoHotkeyU64.exe',
+            args: ['.\\conv\\docx.ahk']
+        },
+        '.doc' : {
+            mod: 'C:\\Program Files\\AutoHotkey\\AutoHotkeyU64.exe',
+            args: ['.\\conv\\docx.ahk']
+        },
+        '.pptx' : {
+            mod: 'C:\\Program Files\\AutoHotkey\\AutoHotkeyU64.exe',
+            args: ['.\\conv\\pptx.ahk']
+        },
+        '.ppt' : {
+            mod: 'C:\\Program Files\\AutoHotkey\\AutoHotkeyU64.exe',
+            args: ['.\\conv\\pptx.ahk']
+        },
+        '.xlsx' : {
+            mod: 'C:\\Program Files\\AutoHotkey\\AutoHotkeyU64.exe',
+            args: ['.\\conv\\xlsx.ahk']
+        },
+        '.xls' : {
+            mod: 'C:\\Program Files\\AutoHotkey\\AutoHotkeyU64.exe',
+            args: ['.\\conv\\xlsx.ahk']
+        },
+    }
+}
